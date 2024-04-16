@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: #a52cf0c3;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 35px;
+  color: black;
+  background-color: white;
+  padding-bottom: 40;
+}
+header h1{
+  font-size: 40px;
+}
+#linkel{
+  display: flex;
+  
+  max-width: 200px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+header div input{
+  border: none;
+  color: white;
+  outline: none;
+  font-size: 18px;
+  padding: 10px 5px;
+  background: #a52cf0c3;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid black;
+}
+header div span{
+  position: relative;
+  top: 5;
+  right: 38;
+  cursor: pointer;
+  font-size: 22px;
+}
+span:hover{
+  opacity: 0.8;
+  transition: 0.4s;
+  transform: translateY(-1px);
+}
+main{
+  display: flex;
+  width: 100%;
+  align-items: start;
+  
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.first{
+  max-width: 100%;
+  background-color: white;
+  padding: 10px 15;
+  margin: 20;
+  display: flex;
+  
+}
+.first img{
+  max-width: 300px;
+}
+main .container{
+  max-width: 300px;
+  
+}
+.first{  
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  transition: .3s ease;
+}
+.first:hover{
+  opacity: 0.7;
+  box-shadow: none;
+  cursor: pointer;
+}
+.everything{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: start;
+height: 100%;
+}
+.everything img{
+  margin-left: 15%;
+  border: 3px solid white;
+  margin-top: 40px;
+  width: 300px;
+}
+.details{
+  display: block;
+  max-width: 900px;
+  color: white;
+  margin-left: 50px;
+  height: 100%;
+}
+.name-det{
+  color: yellow;
+  font-size: 34px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sth{
+  display: flex;
+  margin: 10px 0px;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.year-det{
+  margin-right: 20px;
+}
+.rating-det{
+  background-color: rgba(255, 255, 0, 0.772);
+  padding: 0px 15;
+  margin-right: 15px;
+  font-weight: 700;
+}
+.genre-det{
+  background-color: #bab3b3b9;
+  font-size: 20px;
+  padding: 4px 12px;
+  
+}
+.director-det{
+  font-size: 20;
+  margin: 10px 0px;
+}
+.actors-det{
+  font-size: 19px;
+  font-weight: 700;
+  margin: 10px 0px;
+  
+}
+.plot-det{
+  font-size: 18px;
+  margin: 10px 0px;
+}
+.lang-det{
+  color: yellow;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+.awards-det{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 10px 0px;
+  font-weight: 600;
+}
+#restart{
+  background-color: #f8ff26dd;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 800;
+  align-self: flex-end;
+  justify-content: center;
+margin-top: 40px;
+}
+@media(max-width: 600px) {
+  header{
+    max-height: 100;
+  }
+  header h1{
+    font-size: 25px;
+  }
+  header div input{
+    
+    width: 150px;
+    margin-left: 50;
+    padding: 0;
+  }
+  header div span{
+    font-size: large;
+    margin-bottom: 10;
+  }
+  #linkel{
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+   main{
+    padding-top: 0;
+
+   }.first{
+  max-width: 100%;
+  background-color: white;
+  padding: 2px 5;
+  margin: 10;
+  display: flex;
+  
+}.first img{
+  max-width: 150px;
+}main .container{
+  max-width: 150px;
+  
+}
+.name{
+  font-size: 20;
+}
+.year{
+  font-size: 12;
+}
+.everything{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: start;
+height: 100%;
+}
+.everything img{
+  margin-left: 0px;
+  margin-right: 10px;
+  border: 3px solid white;
+  margin-top: 0px;
+  width: 150px;
+  height: 290;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  color: white;
+  margin-left: 0px;
+  height: 100%;
+}
+.name-det{
+  color: yellow;
+  font-size: 26px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-self: center;
+}
+.sth{
+  display: flex;
+  margin: 0px 0px;
+  font-size: 15px;
+  padding: 10px 0;
+}
+.year-det{
+  margin-right: 10px;
+}
+.rating-det{
+  background-color: rgba(255, 255, 0, 0.772);
+  padding: 0px 15;
+  margin-right: 15px;
+  font-weight: 700;
+}
+.genre-det{
+  background-color: #bab3b3b9;
+  font-size: 16px;
+  padding: 2px 6px;
+  
+}
+.director-det{
+  font-size: 15;
+  margin: 5px 0px;
+}
+.actors-det{
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px 0px;
+  
+}
+.plot-det{
+  font-size: 14px;
+  margin: 5px 0px;
+}
+.lang-det{
+  color: yellow;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin: 5px 0px;
+}
+.awards-det{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 5px 0px;
+  font-weight: 600;
+}
+#restart{
+  background-color: #f8ff26dd;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 800;
+  align-self: first baseline;
+  margin:10;
+}
+}
